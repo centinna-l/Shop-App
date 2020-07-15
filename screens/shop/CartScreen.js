@@ -3,6 +3,8 @@ import { View, Text, FlatList, StyleSheet, Button } from "react-native";
 import { useSelector } from "react-redux";
 import Colors from "../../constants/Colors";
 
+//made by Jerry Joy
+
 const CartScreen = (props) => {
   const cartTotalAmount = useSelector((state) => state.cart.totalAmount);
   const cartItems = useSelector((state) => {
